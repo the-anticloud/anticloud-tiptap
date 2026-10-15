@@ -1,0 +1,4293 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "TIPTAP",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\DESIGN_TOOLS\\TIPTAP\\UPSTREAM_CLONE",
+  "git": {
+   "head": null,
+   "url": null,
+   "branch": "master",
+   "committed_at": "2026-09-29T11:06:59+04:00",
+   "sha_unverified": true,
+   "note": "prior contamination (OPENMRS parent SHA + embedded token) removed; resolve via GitHub API before quoting"
+  }
+ },
+ "metrics": {
+  "files_total": 2103,
+  "source_files_scanned": 1300,
+  "lines_of_code": 122943,
+  "languages": {
+   ".ts": 1067,
+   ".html": 266,
+   ".vue": 163,
+   ".scss": 139,
+   ".md": 129,
+   ".jsx": 121,
+   ".json": 72,
+   ".tsx": 68,
+   ".js": 44,
+   "(none)": 7,
+   ".css": 6,
+   ".yaml": 5,
+   ".mjs": 4,
+   ".cjs": 3,
+   ".mts": 2
+  }
+ },
+ "licence": {
+  "spdx": "MIT",
+  "class": "A",
+  "source_file": "LICENSE.md",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 410,
+  "unique": 126,
+  "by_ecosystem": {
+   "npm": 410
+  },
+  "list": [
+   {
+    "ecosystem": "npm",
+    "name": "@babel/core",
+    "version": "^7.29.6",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-proposal-nullish-coalescing-operator",
+    "version": "^7.18.6",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-proposal-optional-chaining",
+    "version": "^7.21.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/preset-env",
+    "version": "^7.26.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/preset-react",
+    "version": "^7.26.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@changesets/changelog-github",
+    "version": "^0.6.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@changesets/cli",
+    "version": "^2.27.11",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@changesets/get-release-plan",
+    "version": "^4.0.13",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@commitlint/cli",
+    "version": "^19.6.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@commitlint/config-conventional",
+    "version": "^19.6.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@playwright/test",
+    "version": "^1.54.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@testing-library/react",
+    "version": "16.2.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^19.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^19.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "babel-loader",
+    "version": "^9.2.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "cz-conventional-changelog",
+    "version": "^3.3.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fallow",
+    "version": "^2.98.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fast-glob",
+    "version": "^3.3.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "happy-dom",
+    "version": "^20.8.9",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "http-server",
+    "version": "14.1.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lowlight",
+    "version": "^3.3.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "minimist",
+    "version": "^1.2.8",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "pkg-pr-new",
+    "version": "0.0.66",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tinyglobby",
+    "version": "0.2.10",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ts-loader",
+    "version": "9.3.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsconfig-paths",
+    "version": "^4.2.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^5.7.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "catalog:",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite-plus",
+    "version": "catalog:",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "webpack",
+    "version": "^5.97.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vue",
+    "version": "^3.5.13",
+    "source_file": "packages/vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@floating-ui/dom",
+    "version": "^1.0.0",
+    "source_file": "packages/vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vue",
+    "version": "^3.0.0",
+    "source_file": "packages/vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-bubble-menu",
+    "version": "workspace:*",
+    "source_file": "packages/vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-floating-menu",
+    "version": "workspace:*",
+    "source_file": "packages/vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@floating-ui/dom",
+    "version": "^1.6.12",
+    "source_file": "packages/suggestion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/suggestion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/suggestion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@floating-ui/dom",
+    "version": "^1.0.0",
+    "source_file": "packages/suggestion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/suggestion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/suggestion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/static-renderer/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/static-renderer/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^19.0.0",
+    "source_file": "packages/static-renderer/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^19.0.0",
+    "source_file": "packages/static-renderer/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.0.0",
+    "source_file": "packages/static-renderer/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.0.0",
+    "source_file": "packages/static-renderer/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/static-renderer/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/static-renderer/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "source_file": "packages/static-renderer/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "source_file": "packages/static-renderer/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-blockquote",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-bold",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-bullet-list",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-code",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-code-block",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-document",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-hard-break",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-heading",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-horizontal-rule",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-italic",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-link",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-list",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-ordered-list",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-paragraph",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-strike",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-text",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-underline",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extensions",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/starter-kit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/use-sync-external-store",
+    "version": "^0.0.6",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fast-equals",
+    "version": "^5.3.3",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "use-sync-external-store",
+    "version": "^1.4.0",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@testing-library/react",
+    "version": "16.2.0",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^19.0.0",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^19.0.0",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.0.0",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.0.0",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite-plus",
+    "version": "catalog:",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-bubble-menu",
+    "version": "workspace:*",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-floating-menu",
+    "version": "workspace:*",
+    "source_file": "packages/react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-changeset",
+    "version": "^2.4.4",
+    "source_file": "packages/pm/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-commands",
+    "version": "^1.7.2",
+    "source_file": "packages/pm/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-dropcursor",
+    "version": "^1.8.4",
+    "source_file": "packages/pm/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-gapcursor",
+    "version": "^1.4.1",
+    "source_file": "packages/pm/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-history",
+    "version": "^1.5.1",
+    "source_file": "packages/pm/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-inputrules",
+    "version": "^1.5.1",
+    "source_file": "packages/pm/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-keymap",
+    "version": "^1.2.3",
+    "source_file": "packages/pm/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-model",
+    "version": "^1.25.12",
+    "source_file": "packages/pm/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-schema-list",
+    "version": "^1.5.1",
+    "source_file": "packages/pm/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-state",
+    "version": "^1.4.4",
+    "source_file": "packages/pm/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-tables",
+    "version": "^1.8.5",
+    "source_file": "packages/pm/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-transform",
+    "version": "^1.12.2",
+    "source_file": "packages/pm/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-view",
+    "version": "^1.42.6",
+    "source_file": "packages/pm/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "marked",
+    "version": "^17.0.1",
+    "source_file": "packages/markdown/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/markdown/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/markdown/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/markdown/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/markdown/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/html/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/html/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^22.0.0",
+    "source_file": "packages/html/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "happy-dom",
+    "version": "^20.8.9",
+    "source_file": "packages/html/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/html/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/html/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "happy-dom",
+    "version": "^20.8.9",
+    "source_file": "packages/html/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extensions/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extensions/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extensions/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extensions/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-youtube/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-youtube/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "uuid",
+    "version": "^14.0.0",
+    "source_file": "packages/extension-unique-id/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-unique-id/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-unique-id/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-unique-id/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-unique-id/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-underline/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-underline/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-typography/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-typography/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-twitch/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-twitch/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-text-style/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-text-style/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-text-align/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-text-align/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-text/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-text/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "uuid",
+    "version": "^14.0.0",
+    "source_file": "packages/extension-table-of-contents/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-table-of-contents/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-table-of-contents/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-table-of-contents/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-table-of-contents/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-table/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-table/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-table/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-table/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-superscript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-superscript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-superscript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-superscript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-subscript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-subscript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-subscript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-subscript/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-strike/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-strike/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-ruby-text/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-ruby-text/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-ruby-text/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-ruby-text/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-paragraph/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-paragraph/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-list",
+    "version": "workspace:^",
+    "source_file": "packages/extension-ordered-list/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-list",
+    "version": "workspace:*",
+    "source_file": "packages/extension-ordered-list/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-node-range/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-node-range/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-node-range/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-node-range/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-mention/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-mention/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/suggestion",
+    "version": "workspace:^",
+    "source_file": "packages/extension-mention/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-mention/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-mention/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/suggestion",
+    "version": "workspace:*",
+    "source_file": "packages/extension-mention/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-mathematics/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-mathematics/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/katex",
+    "version": "^0.16.7 || ^0.17.0",
+    "source_file": "packages/extension-mathematics/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-mathematics/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-mathematics/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "katex",
+    "version": "^0.16.4 || ^0.17.0 || ^0.18.0",
+    "source_file": "packages/extension-mathematics/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-list/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-list/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-list/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-list/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "linkifyjs",
+    "version": "^4.3.3",
+    "source_file": "packages/extension-link/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-link/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-link/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite-plus",
+    "version": "catalog:",
+    "source_file": "packages/extension-link/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-link/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-link/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-italic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-italic/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-invisible-characters/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-text-style",
+    "version": "workspace:^",
+    "source_file": "packages/extension-invisible-characters/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-invisible-characters/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-invisible-characters/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-text-style",
+    "version": "workspace:*",
+    "source_file": "packages/extension-invisible-characters/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-invisible-characters/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-image/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-image/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-horizontal-rule/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-horizontal-rule/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-horizontal-rule/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-horizontal-rule/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-highlight/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-highlight/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-heading/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-heading/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-hard-break/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-hard-break/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-text-style",
+    "version": "workspace:^",
+    "source_file": "packages/extension-font-family/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-text-style",
+    "version": "workspace:*",
+    "source_file": "packages/extension-font-family/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@floating-ui/dom",
+    "version": "^1.6.12",
+    "source_file": "packages/extension-floating-menu/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-floating-menu/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-floating-menu/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@floating-ui/dom",
+    "version": "^1.0.0",
+    "source_file": "packages/extension-floating-menu/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-floating-menu/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-floating-menu/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "re2js",
+    "version": "^2.8.6",
+    "source_file": "packages/extension-find-and-replace/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-find-and-replace/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-find-and-replace/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-find-and-replace/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-find-and-replace/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-file-handler/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-text-style",
+    "version": "workspace:^",
+    "source_file": "packages/extension-file-handler/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-file-handler/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-file-handler/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-text-style",
+    "version": "workspace:*",
+    "source_file": "packages/extension-file-handler/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-file-handler/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "emoji-regex",
+    "version": "^10.6.0",
+    "source_file": "packages/extension-emoji/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "emojibase-data",
+    "version": "^17",
+    "source_file": "packages/extension-emoji/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "is-emoji-supported",
+    "version": "^0.0.5",
+    "source_file": "packages/extension-emoji/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-emoji/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-emoji/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/suggestion",
+    "version": "workspace:^",
+    "source_file": "packages/extension-emoji/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "emoji-datasource",
+    "version": "^16.0.0",
+    "source_file": "packages/extension-emoji/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "json5",
+    "version": "^2.2.3",
+    "source_file": "packages/extension-emoji/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsm",
+    "version": "^2.3.0",
+    "source_file": "packages/extension-emoji/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-emoji/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-emoji/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/suggestion",
+    "version": "workspace:*",
+    "source_file": "packages/extension-emoji/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-drag-handle",
+    "version": "workspace:^",
+    "source_file": "packages/extension-drag-handle-vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-drag-handle-vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/vue",
+    "version": "workspace:^",
+    "source_file": "packages/extension-drag-handle-vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vue",
+    "version": "^3.0.0",
+    "source_file": "packages/extension-drag-handle-vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-drag-handle",
+    "version": "workspace:*",
+    "source_file": "packages/extension-drag-handle-vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-drag-handle-vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/vue",
+    "version": "workspace:*",
+    "source_file": "packages/extension-drag-handle-vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vue",
+    "version": "^3.0.0",
+    "source_file": "packages/extension-drag-handle-vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-drag-handle",
+    "version": "workspace:^",
+    "source_file": "packages/extension-drag-handle-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-drag-handle-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/react",
+    "version": "workspace:^",
+    "source_file": "packages/extension-drag-handle-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^19.0.0",
+    "source_file": "packages/extension-drag-handle-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^19.0.0",
+    "source_file": "packages/extension-drag-handle-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.0.0",
+    "source_file": "packages/extension-drag-handle-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.0.0",
+    "source_file": "packages/extension-drag-handle-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-drag-handle",
+    "version": "workspace:*",
+    "source_file": "packages/extension-drag-handle-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-drag-handle-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/react",
+    "version": "workspace:*",
+    "source_file": "packages/extension-drag-handle-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^16.8 || ^17 || ^18 || ^19",
+    "source_file": "packages/extension-drag-handle-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^16.8 || ^17 || ^18 || ^19",
+    "source_file": "packages/extension-drag-handle-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@floating-ui/dom",
+    "version": "^1.6.13",
+    "source_file": "packages/extension-drag-handle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@floating-ui/dom",
+    "version": "^1.6.13",
+    "source_file": "packages/extension-drag-handle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-drag-handle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-collaboration",
+    "version": "workspace:^",
+    "source_file": "packages/extension-drag-handle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-node-range",
+    "version": "workspace:^",
+    "source_file": "packages/extension-drag-handle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-drag-handle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/y-tiptap",
+    "version": "^3.0.7",
+    "source_file": "packages/extension-drag-handle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-drag-handle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-collaboration",
+    "version": "workspace:*",
+    "source_file": "packages/extension-drag-handle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-node-range",
+    "version": "workspace:*",
+    "source_file": "packages/extension-drag-handle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-drag-handle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/y-tiptap",
+    "version": "^3.0.7",
+    "source_file": "packages/extension-drag-handle/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-document/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-document/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-details/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-text-style",
+    "version": "workspace:^",
+    "source_file": "packages/extension-details/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-details/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-details/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-text-style",
+    "version": "workspace:*",
+    "source_file": "packages/extension-details/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-details/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-text-style",
+    "version": "workspace:^",
+    "source_file": "packages/extension-color/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-text-style",
+    "version": "workspace:*",
+    "source_file": "packages/extension-color/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-collaboration-caret/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-collaboration",
+    "version": "workspace:^",
+    "source_file": "packages/extension-collaboration-caret/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-document",
+    "version": "workspace:^",
+    "source_file": "packages/extension-collaboration-caret/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-paragraph",
+    "version": "workspace:^",
+    "source_file": "packages/extension-collaboration-caret/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-table",
+    "version": "workspace:^",
+    "source_file": "packages/extension-collaboration-caret/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-text",
+    "version": "workspace:^",
+    "source_file": "packages/extension-collaboration-caret/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-collaboration-caret/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/y-tiptap",
+    "version": "^3.0.7",
+    "source_file": "packages/extension-collaboration-caret/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "yjs",
+    "version": "^13.6.23",
+    "source_file": "packages/extension-collaboration-caret/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-collaboration-caret/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-collaboration-caret/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/y-tiptap",
+    "version": "^3.0.7",
+    "source_file": "packages/extension-collaboration-caret/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-collaboration/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-collaboration/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/y-tiptap",
+    "version": "^3.0.7",
+    "source_file": "packages/extension-collaboration/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite-plus",
+    "version": "catalog:",
+    "source_file": "packages/extension-collaboration/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-collaboration/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-collaboration/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/y-tiptap",
+    "version": "^3.0.7",
+    "source_file": "packages/extension-collaboration/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "yjs",
+    "version": "^13",
+    "source_file": "packages/extension-collaboration/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-code-block-lowlight/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-code-block",
+    "version": "workspace:^",
+    "source_file": "packages/extension-code-block-lowlight/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-code-block-lowlight/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lowlight",
+    "version": "^3.3.0",
+    "source_file": "packages/extension-code-block-lowlight/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-code-block-lowlight/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-code-block",
+    "version": "workspace:*",
+    "source_file": "packages/extension-code-block-lowlight/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-code-block-lowlight/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "highlight.js",
+    "version": "^11",
+    "source_file": "packages/extension-code-block-lowlight/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lowlight",
+    "version": "^2 || ^3",
+    "source_file": "packages/extension-code-block-lowlight/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-code-block/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-code-block/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-code-block/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-code-block/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-code/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-code/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-list",
+    "version": "workspace:^",
+    "source_file": "packages/extension-bullet-list/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-list",
+    "version": "workspace:*",
+    "source_file": "packages/extension-bullet-list/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@floating-ui/dom",
+    "version": "^1.0.0",
+    "source_file": "packages/extension-bubble-menu/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-bubble-menu/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-bubble-menu/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-bubble-menu/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-bubble-menu/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-bold/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-bold/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-blockquote/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/extension-blockquote/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-blockquote/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/extension-blockquote/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/extension-audio/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:*",
+    "source_file": "packages/extension-audio/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-model",
+    "version": "^1.25.12",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "es-toolkit",
+    "version": "^1.41.0",
+    "source_file": "packages/ai-toolkit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "zod",
+    "version": "^4.1.8",
+    "source_file": "packages/ai-toolkit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "source_file": "packages/ai-toolkit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "source_file": "packages/ai-toolkit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/y-tiptap",
+    "version": "^3.0.7",
+    "source_file": "packages/ai-toolkit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "yjs",
+    "version": "^13.6.23",
+    "source_file": "packages/ai-toolkit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "^3.0.1",
+    "source_file": "packages/ai-toolkit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "^3.0.1",
+    "source_file": "packages/ai-toolkit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/y-tiptap",
+    "version": "^3.0.0",
+    "source_file": "packages/ai-toolkit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "yjs",
+    "version": "^13.6.23",
+    "source_file": "packages/ai-toolkit/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@floating-ui/dom",
+    "version": "^1.6.13",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@hocuspocus/provider",
+    "version": "^2.15.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@hocuspocus/transformer",
+    "version": "^2.15.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@lexical/react",
+    "version": "^0.36.2",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@lifeomic/attempt",
+    "version": "3.1.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@shikijs/core",
+    "version": "1.10.3",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/y-tiptap",
+    "version": "^3.0.7",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "d3",
+    "version": "^7.9.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fast-glob",
+    "version": "^3.3.2",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "highlight.js",
+    "version": "^11.11.1",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "katex",
+    "version": "^0.18.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lexical",
+    "version": "^0.36.2",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "linkifyjs",
+    "version": "^4.3.2",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lowlight",
+    "version": "^3.3.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-changeset",
+    "version": "^2.4.4",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-collab",
+    "version": "^1.3.1",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-commands",
+    "version": "^1.7.2",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-dropcursor",
+    "version": "^1.8.4",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-gapcursor",
+    "version": "^1.4.1",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-history",
+    "version": "^1.5.1",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-inputrules",
+    "version": "^1.5.1",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-keymap",
+    "version": "^1.2.3",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-markdown",
+    "version": "^1.13.8",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-menu",
+    "version": "^1.3.2",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-model",
+    "version": "^1.25.12",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-schema-basic",
+    "version": "^1.2.5",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-schema-list",
+    "version": "^1.5.1",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-state",
+    "version": "^1.4.4",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-tables",
+    "version": "^1.8.5",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-trailing-node",
+    "version": "^3.0.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-transform",
+    "version": "^1.12.2",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prosemirror-view",
+    "version": "^1.42.6",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "remixicon",
+    "version": "^2.5.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "shiki",
+    "version": "^1.25.1",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "y-webrtc",
+    "version": "10.3.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "yjs",
+    "version": "13.6.23",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@sveltejs/vite-plugin-svelte",
+    "version": "7.2.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^22.12.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vitejs/plugin-react",
+    "version": "6.0.5",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vitejs/plugin-vue",
+    "version": "6.0.8",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "autoprefixer",
+    "version": "^10.4.20",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "iframe-resizer",
+    "version": "^4.4.5",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "postcss",
+    "version": "^8.5.23",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "postcss-import",
+    "version": "^15.1.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.0.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.0.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass-embedded",
+    "version": "^1.99.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "svelte",
+    "version": "^5.56.8",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tailwindcss",
+    "version": "^3.4.17",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^5.7.2",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "uuid",
+    "version": "^14.0.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "catalog:",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite-plus",
+    "version": "catalog:",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vue",
+    "version": "^3.5.13",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vue-router",
+    "version": "^4.5.0",
+    "source_file": "demos/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@codemod.com/jssg-types",
+    "version": "^1.6.3",
+    "source_file": "codemods/tiptap-v4-migration/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "codemod",
+    "version": "^1.15.2",
+    "source_file": "codemods/tiptap-v4-migration/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^5.7.3",
+    "source_file": "codemods/tiptap-v4-migration/package.json",
+    "raw": ""
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 60,
+  "files_with_findings": 59,
+  "severity": {
+   "high": 16,
+   "medium": 0,
+   "low": 44
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A03-Injection": {
+    "count": 16,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "scripts/aggregate-changeset.js",
+      "line": 322,
+      "cwe": "CWE-95",
+      "snippet": "const headerMatch = headerRe.exec(existing)"
+     },
+     {
+      "severity": "high",
+      "file": "packages/markdown/tests/integration/utilities.test.ts",
+      "line": 235,
+      "cwe": "CWE-95",
+      "snippet": "let match = regex.exec(attrString)"
+     },
+     {
+      "severity": "high",
+      "file": "packages/markdown/src/MarkdownManager.ts",
+      "line": 1531,
+      "cwe": "CWE-95",
+      "snippet": "const trailing = /(\\\\*)!$/.exec(result[previous])"
+     },
+     {
+      "severity": "high",
+      "file": "packages/markdown/src/utils/htmlTagDetection.ts",
+      "line": 160,
+      "cwe": "CWE-95",
+      "snippet": "while ((match = HTML_TAG_NAME_PATTERN.exec(html)) !== null) {"
+     },
+     {
+      "severity": "high",
+      "file": "packages/extension-youtube/src/utils.ts",
+      "line": 98,
+      "cwe": "CWE-95",
+      "snippet": "const matches = videoIdRegex.exec(url)"
+     },
+     {
+      "severity": "high",
+      "file": "packages/extension-underline/src/underline.ts",
+      "line": 80,
+      "cwe": "CWE-95",
+      "snippet": "const match = rule.exec(src)"
+     },
+     {
+      "severity": "high",
+      "file": "packages/extension-mention/src/mention.ts",
+      "line": 287,
+      "cwe": "CWE-95",
+      "snippet": "let match = regex.exec(attrString)"
+     },
+     {
+      "severity": "high",
+      "file": "packages/extension-mathematics/src/extensions/InlineMath.ts",
+      "line": 76,
+      "cwe": "CWE-95",
+      "snippet": "let match = pattern.exec(text)"
+     },
+     {
+      "severity": "high",
+      "file": "packages/extension-link/src/helpers/markdownLink.ts",
+      "line": 141,
+      "cwe": "CWE-95",
+      "snippet": "const match = MARKDOWN_LINK_INPUT_REGEX.exec(text)"
+     },
+     {
+      "severity": "high",
+      "file": "packages/extension-highlight/src/highlight.ts",
+      "line": 130,
+      "cwe": "CWE-95",
+      "snippet": "const match = rule.exec(src)"
+     },
+     {
+      "severity": "high",
+      "file": "packages/extension-code/src/code.ts",
+      "line": 52,
+      "cwe": "CWE-95",
+      "snippet": "const match = /`([^`]+)`(?!`)$/.exec(text)"
+     },
+     {
+      "severity": "high",
+      "file": "packages/core/src/InputRule.ts",
+      "line": 68,
+      "cwe": "CWE-95",
+      "snippet": "return find.exec(text)"
+     },
+     {
+      "severity": "high",
+      "file": "packages/core/src/utilities/markdown/createBlockMarkdownSpec.ts",
+      "line": 147,
+      "cwe": "CWE-95",
+      "snippet": "const match = blockPattern.exec(remaining)"
+     },
+     {
+      "severity": "high",
+      "file": "demos/src/Markdown/CustomSyntax/React/index.jsx",
+      "line": 133,
+      "cwe": "CWE-95",
+      "snippet": "const match = rule.exec(src)"
+     },
+     {
+      "severity": "high",
+      "file": "demos/src/Experiments/Linter/Vue/extension/plugins/BadWords.ts",
+      "line": 12,
+      "cwe": "CWE-95",
+      "snippet": "const matches = this.regex.exec(node.text)"
+     },
+     {
+      "severity": "high",
+      "file": "demos/src/Experiments/Linter/Vue/extension/plugins/Punctuation.ts",
+      "line": 25,
+      "cwe": "CWE-95",
+      "snippet": "const matches = this.regex.exec(node.text)"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 37,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "packages/vue/src/EditorContent.ts",
+      "line": 38,
+      "cwe": "CWE-",
+      "snippet": "// TODO using the new editor.mount method might allow us to remove this"
+     },
+     {
+      "severity": "low",
+      "file": "packages/vue/src/menus/FloatingMenu.ts",
+      "line": 14,
+      "cwe": "CWE-",
+      "snippet": "// TODO: TypeScript breaks :("
+     },
+     {
+      "severity": "low",
+      "file": "packages/suggestion/src/findSuggestionMatch.ts",
+      "line": 53,
+      "cwe": "CWE-",
+      "snippet": "// JavaScript doesn't have lookbehinds. This hacks a check that first character"
+     },
+     {
+      "severity": "low",
+      "file": "packages/static-renderer/src/pm/react/react.ts",
+      "line": 148,
+      "cwe": "CWE-",
+      "snippet": "// TODO support DOM elements? How to handle them?"
+     },
+     {
+      "severity": "low",
+      "file": "packages/static-renderer/src/pm/html-string/html-string.ts",
+      "line": 103,
+      "cwe": "CWE-",
+      "snippet": "// TODO support DOM elements? How to handle them?"
+     },
+     {
+      "severity": "low",
+      "file": "packages/react/src/EditorContent.tsx",
+      "line": 187,
+      "cwe": "CWE-",
+      "snippet": "// TODO using the new editor.mount method might allow us to remove this"
+     },
+     {
+      "severity": "low",
+      "file": "packages/extension-table/src/table/table.ts",
+      "line": 277,
+      "cwe": "CWE-",
+      "snippet": "// TODO: fix"
+     },
+     {
+      "severity": "low",
+      "file": "packages/extension-link/src/link.ts",
+      "line": 229,
+      "cwe": "CWE-",
+      "snippet": "// TODO: v4 - remove validate option"
+     },
+     {
+      "severity": "low",
+      "file": "packages/extension-floating-menu/src/floating-menu-plugin.test.ts",
+      "line": 239,
+      "cwe": "CWE-",
+      "snippet": "// without a guard, posToDOMRect -> coordsAtPos throws on the null docView."
+     },
+     {
+      "severity": "low",
+      "file": "packages/extension-floating-menu/src/floating-menu-plugin.ts",
+      "line": 14,
+      "cwe": "CWE-",
+      "snippet": "import { getText, getTextSerializersFromSchema, posToDOMRect } from '@tiptap/core'"
+     },
+     {
+      "severity": "low",
+      "file": "packages/extension-drag-handle/src/drag-handle-plugin.ts",
+      "line": 330,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Remove"
+     },
+     {
+      "severity": "low",
+      "file": "packages/extension-drag-handle/src/helpers/findNextElementFromCursor.ts",
+      "line": 133,
+      "cwe": "CWE-",
+      "snippet": "// TODO"
+     },
+     {
+      "severity": "low",
+      "file": "packages/extension-details/src/details.ts",
+      "line": 355,
+      "cwe": "CWE-",
+      "snippet": "// TODO: this may break for some custom schemas"
+     },
+     {
+      "severity": "low",
+      "file": "packages/extension-bubble-menu/src/bubble-menu-plugin.ts",
+      "line": 15,
+      "cwe": "CWE-",
+      "snippet": "import { isTextSelection, posToDOMRect } from '@tiptap/core'"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/tests/integration/changedRangeDecorations.test.ts",
+      "line": 383,
+      "cwe": "CWE-",
+      "snippet": "editor.commands.setContent('<p>xxx</p><p>xxx</p>')"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/tests/integration/highlightDecorations.test.ts",
+      "line": 60,
+      "cwe": "CWE-",
+      "snippet": "const marker = (widgets[0].type as any).toDOM(null, () => widgets[0].from)"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/Node.ts",
+      "line": 184,
+      "cwe": "CWE-",
+      "snippet": "* the way the node is rendered\u2014that should be handled by `toDOM`"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/types.ts",
+      "line": 724,
+      "cwe": "CWE-",
+      "snippet": "// TODO this type is not technically correct, but it's the best we can do for now since prosemirror doesn't expose the type of decorations"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/utilities/mergeAttributes.test.ts",
+      "line": 79,
+      "cwe": "CWE-",
+      "snippet": "image: { toDOM: () => ['img', attributes] },"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/lib/ResizableNodeView.ts",
+      "line": 778,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Select the node in the editor"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/helpers/getAttributesFromExtensions.ts",
+      "line": 94,
+      "cwe": "CWE-",
+      "snippet": "// TODO: remove `as Attributes`"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/helpers/getSchemaByResolvedExtensions.ts",
+      "line": 141,
+      "cwe": "CWE-",
+      "snippet": "schema.toDOM = node =>"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/helpers/index.ts",
+      "line": 65,
+      "cwe": "CWE-",
+      "snippet": "export * from './posToDOMRect.js'"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/helpers/posToDOMRect.ts",
+      "line": 5,
+      "cwe": "CWE-",
+      "snippet": "export function posToDOMRect(view: EditorView, from: number, to: number): DOMRect {"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/commands/selectTextblockEnd.ts",
+      "line": 2,
+      "cwe": "CWE-",
+      "snippet": "// TODO: add types to @types/prosemirror-commands"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 0,
+    "findings": []
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 7,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "playwright.config.ts",
+      "line": 15,
+      "cwe": "CWE-319",
+      "snippet": "baseURL: 'http://127.0.0.1:4080',"
+     },
+     {
+      "severity": "low",
+      "file": "packages/extension-link/tests/integration/link.test.ts",
+      "line": 24,
+      "cwe": "CWE-319",
+      "snippet": "'http://example.com',"
+     },
+     {
+      "severity": "low",
+      "file": "packages/extension-link/tests/integration/markdownLink.test.ts",
+      "line": 408,
+      "cwe": "CWE-319",
+      "snippet": "expect(editor!.getHTML()).not.toContain('href=\"http://tiptap.dev\"')"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/utilities/mergeAttributes.test.ts",
+      "line": 171,
+      "cwe": "CWE-319",
+      "snippet": "'background: url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns=\\'http://www.w3.org/2000/svg\\'%3E%3C/svg%3E\") center center no-repeat;background-size: cover',"
+     },
+     {
+      "severity": "low",
+      "file": "demos/src/Marks/Link/index.spec.ts",
+      "line": 108,
+      "cwe": "CWE-319",
+      "snippet": "await page.keyboard.type('http://example.com ')"
+     },
+     {
+      "severity": "low",
+      "file": "demos/src/Extensions/DragHandleWithNodeViews/React/index.jsx",
+      "line": 32,
+      "cwe": "CWE-319",
+      "snippet": "xmlns=\"http://www.w3.org/2000/svg\""
+     },
+     {
+      "severity": "low",
+      "file": "demos/src/Examples/AutolinkValidation/index.spec.ts",
+      "line": 11,
+      "cwe": "CWE-319",
+      "snippet": "['http://tiptap.dev ', 'http://tiptap.dev'],"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 1,
+  "files_with_findings": 1,
+  "severity": {
+   "high": 1,
+   "medium": 0,
+   "low": 0
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "packages/markdown/src/MarkdownManager.ts",
+      "line": 1531,
+      "cwe": "CWE-95",
+      "snippet": "const trailing = /(\\\\*)!$/.exec(result[previous])"
+     }
+    ]
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:78be2b7c-31a0-56a8-afa5-b01d2f9b35e8",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-06T06:18:44Z",
+   "component": {
+    "type": "application",
+    "name": "TIPTAP",
+    "version": "83b357604d34",
+    "bom-ref": "pkg:generic/anticloud/TIPTAP@83b357604d34",
+    "purl": "pkg:generic/anticloud/TIPTAP@83b357604d34",
+    "licenses": [
+     {
+      "license": {
+       "id": "MIT"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": ""
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "@babel/core",
+    "version": "^7.29.6",
+    "purl": "pkg:npm/@babel/core@^7.29.6",
+    "bom-ref": "npm/@babel/core@^7.29.6"
+   },
+   {
+    "type": "library",
+    "name": "@babel/plugin-proposal-nullish-coalescing-operator",
+    "version": "^7.18.6",
+    "purl": "pkg:npm/@babel/plugin-proposal-nullish-coalescing-operator@^7.18.6",
+    "bom-ref": "npm/@babel/plugin-proposal-nullish-coalescing-operator@^7.18.6"
+   },
+   {
+    "type": "library",
+    "name": "@babel/plugin-proposal-optional-chaining",
+    "version": "^7.21.0",
+    "purl": "pkg:npm/@babel/plugin-proposal-optional-chaining@^7.21.0",
+    "bom-ref": "npm/@babel/plugin-proposal-optional-chaining@^7.21.0"
+   },
+   {
+    "type": "library",
+    "name": "@babel/preset-env",
+    "version": "^7.26.0",
+    "purl": "pkg:npm/@babel/preset-env@^7.26.0",
+    "bom-ref": "npm/@babel/preset-env@^7.26.0"
+   },
+   {
+    "type": "library",
+    "name": "@babel/preset-react",
+    "version": "^7.26.3",
+    "purl": "pkg:npm/@babel/preset-react@^7.26.3",
+    "bom-ref": "npm/@babel/preset-react@^7.26.3"
+   },
+   {
+    "type": "library",
+    "name": "@changesets/changelog-github",
+    "version": "^0.6.0",
+    "purl": "pkg:npm/@changesets/changelog-github@^0.6.0",
+    "bom-ref": "npm/@changesets/changelog-github@^0.6.0"
+   },
+   {
+    "type": "library",
+    "name": "@changesets/cli",
+    "version": "^2.27.11",
+    "purl": "pkg:npm/@changesets/cli@^2.27.11",
+    "bom-ref": "npm/@changesets/cli@^2.27.11"
+   },
+   {
+    "type": "library",
+    "name": "@changesets/get-release-plan",
+    "version": "^4.0.13",
+    "purl": "pkg:npm/@changesets/get-release-plan@^4.0.13",
+    "bom-ref": "npm/@changesets/get-release-plan@^4.0.13"
+   },
+   {
+    "type": "library",
+    "name": "@commitlint/cli",
+    "version": "^19.6.1",
+    "purl": "pkg:npm/@commitlint/cli@^19.6.1",
+    "bom-ref": "npm/@commitlint/cli@^19.6.1"
+   },
+   {
+    "type": "library",
+    "name": "@commitlint/config-conventional",
+    "version": "^19.6.0",
+    "purl": "pkg:npm/@commitlint/config-conventional@^19.6.0",
+    "bom-ref": "npm/@commitlint/config-conventional@^19.6.0"
+   },
+   {
+    "type": "library",
+    "name": "@playwright/test",
+    "version": "^1.54.2",
+    "purl": "pkg:npm/@playwright/test@^1.54.2",
+    "bom-ref": "npm/@playwright/test@^1.54.2"
+   },
+   {
+    "type": "library",
+    "name": "@testing-library/react",
+    "version": "16.2.0",
+    "purl": "pkg:npm/@testing-library/react@16.2.0",
+    "bom-ref": "npm/@testing-library/react@16.2.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/react",
+    "version": "^19.0.0",
+    "purl": "pkg:npm/@types/react@^19.0.0",
+    "bom-ref": "npm/@types/react@^19.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/react-dom",
+    "version": "^19.0.0",
+    "purl": "pkg:npm/@types/react-dom@^19.0.0",
+    "bom-ref": "npm/@types/react-dom@^19.0.0"
+   },
+   {
+    "type": "library",
+    "name": "babel-loader",
+    "version": "^9.2.1",
+    "purl": "pkg:npm/babel-loader@^9.2.1",
+    "bom-ref": "npm/babel-loader@^9.2.1"
+   },
+   {
+    "type": "library",
+    "name": "cz-conventional-changelog",
+    "version": "^3.3.0",
+    "purl": "pkg:npm/cz-conventional-changelog@^3.3.0",
+    "bom-ref": "npm/cz-conventional-changelog@^3.3.0"
+   },
+   {
+    "type": "library",
+    "name": "fallow",
+    "version": "^2.98.0",
+    "purl": "pkg:npm/fallow@^2.98.0",
+    "bom-ref": "npm/fallow@^2.98.0"
+   },
+   {
+    "type": "library",
+    "name": "fast-glob",
+    "version": "^3.3.2",
+    "purl": "pkg:npm/fast-glob@^3.3.2",
+    "bom-ref": "npm/fast-glob@^3.3.2"
+   },
+   {
+    "type": "library",
+    "name": "happy-dom",
+    "version": "^20.8.9",
+    "purl": "pkg:npm/happy-dom@^20.8.9",
+    "bom-ref": "npm/happy-dom@^20.8.9"
+   },
+   {
+    "type": "library",
+    "name": "http-server",
+    "version": "14.1.1",
+    "purl": "pkg:npm/http-server@14.1.1",
+    "bom-ref": "npm/http-server@14.1.1"
+   },
+   {
+    "type": "library",
+    "name": "lowlight",
+    "version": "^3.3.0",
+    "purl": "pkg:npm/lowlight@^3.3.0",
+    "bom-ref": "npm/lowlight@^3.3.0"
+   },
+   {
+    "type": "library",
+    "name": "minimist",
+    "version": "^1.2.8",
+    "purl": "pkg:npm/minimist@^1.2.8",
+    "bom-ref": "npm/minimist@^1.2.8"
+   },
+   {
+    "type": "library",
+    "name": "pkg-pr-new",
+    "version": "0.0.66",
+    "purl": "pkg:npm/pkg-pr-new@0.0.66",
+    "bom-ref": "npm/pkg-pr-new@0.0.66"
+   },
+   {
+    "type": "library",
+    "name": "react",
+    "version": "^19.0.0",
+    "purl": "pkg:npm/react@^19.0.0",
+    "bom-ref": "npm/react@^19.0.0"
+   },
+   {
+    "type": "library",
+    "name": "tinyglobby",
+    "version": "0.2.10",
+    "purl": "pkg:npm/tinyglobby@0.2.10",
+    "bom-ref": "npm/tinyglobby@0.2.10"
+   },
+   {
+    "type": "library",
+    "name": "ts-loader",
+    "version": "9.3.1",
+    "purl": "pkg:npm/ts-loader@9.3.1",
+    "bom-ref": "npm/ts-loader@9.3.1"
+   },
+   {
+    "type": "library",
+    "name": "tsconfig-paths",
+    "version": "^4.2.0",
+    "purl": "pkg:npm/tsconfig-paths@^4.2.0",
+    "bom-ref": "npm/tsconfig-paths@^4.2.0"
+   },
+   {
+    "type": "library",
+    "name": "typescript",
+    "version": "^5.7.3",
+    "purl": "pkg:npm/typescript@^5.7.3",
+    "bom-ref": "npm/typescript@^5.7.3"
+   },
+   {
+    "type": "library",
+    "name": "vite",
+    "version": "catalog:",
+    "purl": "pkg:npm/vite@catalog:",
+    "bom-ref": "npm/vite@catalog:"
+   },
+   {
+    "type": "library",
+    "name": "vite-plus",
+    "version": "catalog:",
+    "purl": "pkg:npm/vite-plus@catalog:",
+    "bom-ref": "npm/vite-plus@catalog:"
+   },
+   {
+    "type": "library",
+    "name": "webpack",
+    "version": "^5.97.1",
+    "purl": "pkg:npm/webpack@^5.97.1",
+    "bom-ref": "npm/webpack@^5.97.1"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/core",
+    "version": "workspace:^",
+    "purl": "pkg:npm/@tiptap/core@workspace:^",
+    "bom-ref": "npm/@tiptap/core@workspace:^"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/pm",
+    "version": "workspace:^",
+    "purl": "pkg:npm/@tiptap/pm@workspace:^",
+    "bom-ref": "npm/@tiptap/pm@workspace:^"
+   },
+   {
+    "type": "library",
+    "name": "vue",
+    "version": "^3.5.13",
+    "purl": "pkg:npm/vue@^3.5.13",
+    "bom-ref": "npm/vue@^3.5.13"
+   },
+   {
+    "type": "library",
+    "name": "@floating-ui/dom",
+    "version": "^1.0.0",
+    "purl": "pkg:npm/@floating-ui/dom@^1.0.0",
+    "bom-ref": "npm/@floating-ui/dom@^1.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-bubble-menu",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-bubble-menu@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-bubble-menu@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-floating-menu",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-floating-menu@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-floating-menu@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "react-dom",
+    "version": "^19.0.0",
+    "purl": "pkg:npm/react-dom@^19.0.0",
+    "bom-ref": "npm/react-dom@^19.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-blockquote",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-blockquote@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-blockquote@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-bold",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-bold@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-bold@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-bullet-list",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-bullet-list@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-bullet-list@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-code",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-code@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-code@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-code-block",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-code-block@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-code-block@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-document",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-document@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-document@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-hard-break",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-hard-break@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-hard-break@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-heading",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-heading@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-heading@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-horizontal-rule",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-horizontal-rule@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-horizontal-rule@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-italic",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-italic@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-italic@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-link",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-link@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-link@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-list",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-list@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-list@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-ordered-list",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-ordered-list@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-ordered-list@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-paragraph",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-paragraph@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-paragraph@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-strike",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-strike@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-strike@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-text",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-text@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-text@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-underline",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extension-underline@workspace:*",
+    "bom-ref": "npm/@tiptap/extension-underline@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extensions",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@tiptap/extensions@workspace:*",
+    "bom-ref": "npm/@tiptap/extensions@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@types/use-sync-external-store",
+    "version": "^0.0.6",
+    "purl": "pkg:npm/@types/use-sync-external-store@^0.0.6",
+    "bom-ref": "npm/@types/use-sync-external-store@^0.0.6"
+   },
+   {
+    "type": "library",
+    "name": "fast-equals",
+    "version": "^5.3.3",
+    "purl": "pkg:npm/fast-equals@^5.3.3",
+    "bom-ref": "npm/fast-equals@^5.3.3"
+   },
+   {
+    "type": "library",
+    "name": "use-sync-external-store",
+    "version": "^1.4.0",
+    "purl": "pkg:npm/use-sync-external-store@^1.4.0",
+    "bom-ref": "npm/use-sync-external-store@^1.4.0"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-changeset",
+    "version": "^2.4.4",
+    "purl": "pkg:npm/prosemirror-changeset@^2.4.4",
+    "bom-ref": "npm/prosemirror-changeset@^2.4.4"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-commands",
+    "version": "^1.7.2",
+    "purl": "pkg:npm/prosemirror-commands@^1.7.2",
+    "bom-ref": "npm/prosemirror-commands@^1.7.2"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-dropcursor",
+    "version": "^1.8.4",
+    "purl": "pkg:npm/prosemirror-dropcursor@^1.8.4",
+    "bom-ref": "npm/prosemirror-dropcursor@^1.8.4"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-gapcursor",
+    "version": "^1.4.1",
+    "purl": "pkg:npm/prosemirror-gapcursor@^1.4.1",
+    "bom-ref": "npm/prosemirror-gapcursor@^1.4.1"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-history",
+    "version": "^1.5.1",
+    "purl": "pkg:npm/prosemirror-history@^1.5.1",
+    "bom-ref": "npm/prosemirror-history@^1.5.1"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-inputrules",
+    "version": "^1.5.1",
+    "purl": "pkg:npm/prosemirror-inputrules@^1.5.1",
+    "bom-ref": "npm/prosemirror-inputrules@^1.5.1"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-keymap",
+    "version": "^1.2.3",
+    "purl": "pkg:npm/prosemirror-keymap@^1.2.3",
+    "bom-ref": "npm/prosemirror-keymap@^1.2.3"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-model",
+    "version": "^1.25.12",
+    "purl": "pkg:npm/prosemirror-model@^1.25.12",
+    "bom-ref": "npm/prosemirror-model@^1.25.12"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-schema-list",
+    "version": "^1.5.1",
+    "purl": "pkg:npm/prosemirror-schema-list@^1.5.1",
+    "bom-ref": "npm/prosemirror-schema-list@^1.5.1"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-state",
+    "version": "^1.4.4",
+    "purl": "pkg:npm/prosemirror-state@^1.4.4",
+    "bom-ref": "npm/prosemirror-state@^1.4.4"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-tables",
+    "version": "^1.8.5",
+    "purl": "pkg:npm/prosemirror-tables@^1.8.5",
+    "bom-ref": "npm/prosemirror-tables@^1.8.5"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-transform",
+    "version": "^1.12.2",
+    "purl": "pkg:npm/prosemirror-transform@^1.12.2",
+    "bom-ref": "npm/prosemirror-transform@^1.12.2"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-view",
+    "version": "^1.42.6",
+    "purl": "pkg:npm/prosemirror-view@^1.42.6",
+    "bom-ref": "npm/prosemirror-view@^1.42.6"
+   },
+   {
+    "type": "library",
+    "name": "marked",
+    "version": "^17.0.1",
+    "purl": "pkg:npm/marked@^17.0.1",
+    "bom-ref": "npm/marked@^17.0.1"
+   },
+   {
+    "type": "library",
+    "name": "@types/node",
+    "version": "^22.0.0",
+    "purl": "pkg:npm/@types/node@^22.0.0",
+    "bom-ref": "npm/@types/node@^22.0.0"
+   },
+   {
+    "type": "library",
+    "name": "uuid",
+    "version": "^14.0.0",
+    "purl": "pkg:npm/uuid@^14.0.0",
+    "bom-ref": "npm/uuid@^14.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/suggestion",
+    "version": "workspace:^",
+    "purl": "pkg:npm/@tiptap/suggestion@workspace:^",
+    "bom-ref": "npm/@tiptap/suggestion@workspace:^"
+   },
+   {
+    "type": "library",
+    "name": "@types/katex",
+    "version": "^0.16.7 || ^0.17.0",
+    "purl": "pkg:npm/@types/katex@^0.16.7 || ^0.17.0",
+    "bom-ref": "npm/@types/katex@^0.16.7 || ^0.17.0"
+   },
+   {
+    "type": "library",
+    "name": "katex",
+    "version": "^0.16.4 || ^0.17.0 || ^0.18.0",
+    "purl": "pkg:npm/katex@^0.16.4 || ^0.17.0 || ^0.18.0",
+    "bom-ref": "npm/katex@^0.16.4 || ^0.17.0 || ^0.18.0"
+   },
+   {
+    "type": "library",
+    "name": "linkifyjs",
+    "version": "^4.3.3",
+    "purl": "pkg:npm/linkifyjs@^4.3.3",
+    "bom-ref": "npm/linkifyjs@^4.3.3"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-text-style",
+    "version": "workspace:^",
+    "purl": "pkg:npm/@tiptap/extension-text-style@workspace:^",
+    "bom-ref": "npm/@tiptap/extension-text-style@workspace:^"
+   },
+   {
+    "type": "library",
+    "name": "re2js",
+    "version": "^2.8.6",
+    "purl": "pkg:npm/re2js@^2.8.6",
+    "bom-ref": "npm/re2js@^2.8.6"
+   },
+   {
+    "type": "library",
+    "name": "emoji-regex",
+    "version": "^10.6.0",
+    "purl": "pkg:npm/emoji-regex@^10.6.0",
+    "bom-ref": "npm/emoji-regex@^10.6.0"
+   },
+   {
+    "type": "library",
+    "name": "emojibase-data",
+    "version": "^17",
+    "purl": "pkg:npm/emojibase-data@^17",
+    "bom-ref": "npm/emojibase-data@^17"
+   },
+   {
+    "type": "library",
+    "name": "is-emoji-supported",
+    "version": "^0.0.5",
+    "purl": "pkg:npm/is-emoji-supported@^0.0.5",
+    "bom-ref": "npm/is-emoji-supported@^0.0.5"
+   },
+   {
+    "type": "library",
+    "name": "emoji-datasource",
+    "version": "^16.0.0",
+    "purl": "pkg:npm/emoji-datasource@^16.0.0",
+    "bom-ref": "npm/emoji-datasource@^16.0.0"
+   },
+   {
+    "type": "library",
+    "name": "json5",
+    "version": "^2.2.3",
+    "purl": "pkg:npm/json5@^2.2.3",
+    "bom-ref": "npm/json5@^2.2.3"
+   },
+   {
+    "type": "library",
+    "name": "tsm",
+    "version": "^2.3.0",
+    "purl": "pkg:npm/tsm@^2.3.0",
+    "bom-ref": "npm/tsm@^2.3.0"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-drag-handle",
+    "version": "workspace:^",
+    "purl": "pkg:npm/@tiptap/extension-drag-handle@workspace:^",
+    "bom-ref": "npm/@tiptap/extension-drag-handle@workspace:^"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/vue",
+    "version": "workspace:^",
+    "purl": "pkg:npm/@tiptap/vue@workspace:^",
+    "bom-ref": "npm/@tiptap/vue@workspace:^"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/react",
+    "version": "workspace:^",
+    "purl": "pkg:npm/@tiptap/react@workspace:^",
+    "bom-ref": "npm/@tiptap/react@workspace:^"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-collaboration",
+    "version": "workspace:^",
+    "purl": "pkg:npm/@tiptap/extension-collaboration@workspace:^",
+    "bom-ref": "npm/@tiptap/extension-collaboration@workspace:^"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-node-range",
+    "version": "workspace:^",
+    "purl": "pkg:npm/@tiptap/extension-node-range@workspace:^",
+    "bom-ref": "npm/@tiptap/extension-node-range@workspace:^"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/y-tiptap",
+    "version": "^3.0.7",
+    "purl": "pkg:npm/@tiptap/y-tiptap@^3.0.7",
+    "bom-ref": "npm/@tiptap/y-tiptap@^3.0.7"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-table",
+    "version": "workspace:^",
+    "purl": "pkg:npm/@tiptap/extension-table@workspace:^",
+    "bom-ref": "npm/@tiptap/extension-table@workspace:^"
+   },
+   {
+    "type": "library",
+    "name": "yjs",
+    "version": "^13.6.23",
+    "purl": "pkg:npm/yjs@^13.6.23",
+    "bom-ref": "npm/yjs@^13.6.23"
+   },
+   {
+    "type": "library",
+    "name": "highlight.js",
+    "version": "^11",
+    "purl": "pkg:npm/highlight.js@^11",
+    "bom-ref": "npm/highlight.js@^11"
+   },
+   {
+    "type": "library",
+    "name": "es-toolkit",
+    "version": "^1.41.0",
+    "purl": "pkg:npm/es-toolkit@^1.41.0",
+    "bom-ref": "npm/es-toolkit@^1.41.0"
+   },
+   {
+    "type": "library",
+    "name": "zod",
+    "version": "^4.1.8",
+    "purl": "pkg:npm/zod@^4.1.8",
+    "bom-ref": "npm/zod@^4.1.8"
+   },
+   {
+    "type": "library",
+    "name": "@hocuspocus/provider",
+    "version": "^2.15.0",
+    "purl": "pkg:npm/@hocuspocus/provider@^2.15.0",
+    "bom-ref": "npm/@hocuspocus/provider@^2.15.0"
+   },
+   {
+    "type": "library",
+    "name": "@hocuspocus/transformer",
+    "version": "^2.15.0",
+    "purl": "pkg:npm/@hocuspocus/transformer@^2.15.0",
+    "bom-ref": "npm/@hocuspocus/transformer@^2.15.0"
+   },
+   {
+    "type": "library",
+    "name": "@lexical/react",
+    "version": "^0.36.2",
+    "purl": "pkg:npm/@lexical/react@^0.36.2",
+    "bom-ref": "npm/@lexical/react@^0.36.2"
+   },
+   {
+    "type": "library",
+    "name": "@lifeomic/attempt",
+    "version": "3.1.0",
+    "purl": "pkg:npm/@lifeomic/attempt@3.1.0",
+    "bom-ref": "npm/@lifeomic/attempt@3.1.0"
+   },
+   {
+    "type": "library",
+    "name": "@shikijs/core",
+    "version": "1.10.3",
+    "purl": "pkg:npm/@shikijs/core@1.10.3",
+    "bom-ref": "npm/@shikijs/core@1.10.3"
+   },
+   {
+    "type": "library",
+    "name": "d3",
+    "version": "^7.9.0",
+    "purl": "pkg:npm/d3@^7.9.0",
+    "bom-ref": "npm/d3@^7.9.0"
+   },
+   {
+    "type": "library",
+    "name": "lexical",
+    "version": "^0.36.2",
+    "purl": "pkg:npm/lexical@^0.36.2",
+    "bom-ref": "npm/lexical@^0.36.2"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-collab",
+    "version": "^1.3.1",
+    "purl": "pkg:npm/prosemirror-collab@^1.3.1",
+    "bom-ref": "npm/prosemirror-collab@^1.3.1"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-markdown",
+    "version": "^1.13.8",
+    "purl": "pkg:npm/prosemirror-markdown@^1.13.8",
+    "bom-ref": "npm/prosemirror-markdown@^1.13.8"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-menu",
+    "version": "^1.3.2",
+    "purl": "pkg:npm/prosemirror-menu@^1.3.2",
+    "bom-ref": "npm/prosemirror-menu@^1.3.2"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-schema-basic",
+    "version": "^1.2.5",
+    "purl": "pkg:npm/prosemirror-schema-basic@^1.2.5",
+    "bom-ref": "npm/prosemirror-schema-basic@^1.2.5"
+   },
+   {
+    "type": "library",
+    "name": "prosemirror-trailing-node",
+    "version": "^3.0.0",
+    "purl": "pkg:npm/prosemirror-trailing-node@^3.0.0",
+    "bom-ref": "npm/prosemirror-trailing-node@^3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "remixicon",
+    "version": "^2.5.0",
+    "purl": "pkg:npm/remixicon@^2.5.0",
+    "bom-ref": "npm/remixicon@^2.5.0"
+   },
+   {
+    "type": "library",
+    "name": "shiki",
+    "version": "^1.25.1",
+    "purl": "pkg:npm/shiki@^1.25.1",
+    "bom-ref": "npm/shiki@^1.25.1"
+   },
+   {
+    "type": "library",
+    "name": "y-webrtc",
+    "version": "10.3.0",
+    "purl": "pkg:npm/y-webrtc@10.3.0",
+    "bom-ref": "npm/y-webrtc@10.3.0"
+   },
+   {
+    "type": "library",
+    "name": "@sveltejs/vite-plugin-svelte",
+    "version": "7.2.0",
+    "purl": "pkg:npm/@sveltejs/vite-plugin-svelte@7.2.0",
+    "bom-ref": "npm/@sveltejs/vite-plugin-svelte@7.2.0"
+   },
+   {
+    "type": "library",
+    "name": "@vitejs/plugin-react",
+    "version": "6.0.5",
+    "purl": "pkg:npm/@vitejs/plugin-react@6.0.5",
+    "bom-ref": "npm/@vitejs/plugin-react@6.0.5"
+   },
+   {
+    "type": "library",
+    "name": "@vitejs/plugin-vue",
+    "version": "6.0.8",
+    "purl": "pkg:npm/@vitejs/plugin-vue@6.0.8",
+    "bom-ref": "npm/@vitejs/plugin-vue@6.0.8"
+   },
+   {
+    "type": "library",
+    "name": "autoprefixer",
+    "version": "^10.4.20",
+    "purl": "pkg:npm/autoprefixer@^10.4.20",
+    "bom-ref": "npm/autoprefixer@^10.4.20"
+   },
+   {
+    "type": "library",
+    "name": "iframe-resizer",
+    "version": "^4.4.5",
+    "purl": "pkg:npm/iframe-resizer@^4.4.5",
+    "bom-ref": "npm/iframe-resizer@^4.4.5"
+   },
+   {
+    "type": "library",
+    "name": "postcss",
+    "version": "^8.5.23",
+    "purl": "pkg:npm/postcss@^8.5.23",
+    "bom-ref": "npm/postcss@^8.5.23"
+   },
+   {
+    "type": "library",
+    "name": "postcss-import",
+    "version": "^15.1.0",
+    "purl": "pkg:npm/postcss-import@^15.1.0",
+    "bom-ref": "npm/postcss-import@^15.1.0"
+   },
+   {
+    "type": "library",
+    "name": "sass-embedded",
+    "version": "^1.99.0",
+    "purl": "pkg:npm/sass-embedded@^1.99.0",
+    "bom-ref": "npm/sass-embedded@^1.99.0"
+   },
+   {
+    "type": "library",
+    "name": "svelte",
+    "version": "^5.56.8",
+    "purl": "pkg:npm/svelte@^5.56.8",
+    "bom-ref": "npm/svelte@^5.56.8"
+   },
+   {
+    "type": "library",
+    "name": "tailwindcss",
+    "version": "^3.4.17",
+    "purl": "pkg:npm/tailwindcss@^3.4.17",
+    "bom-ref": "npm/tailwindcss@^3.4.17"
+   },
+   {
+    "type": "library",
+    "name": "vue-router",
+    "version": "^4.5.0",
+    "purl": "pkg:npm/vue-router@^4.5.0",
+    "bom-ref": "npm/vue-router@^4.5.0"
+   },
+   {
+    "type": "library",
+    "name": "@codemod.com/jssg-types",
+    "version": "^1.6.3",
+    "purl": "pkg:npm/@codemod.com/jssg-types@^1.6.3",
+    "bom-ref": "npm/@codemod.com/jssg-types@^1.6.3"
+   },
+   {
+    "type": "library",
+    "name": "codemod",
+    "version": "^1.15.2",
+    "purl": "pkg:npm/codemod@^1.15.2",
+    "bom-ref": "npm/codemod@^1.15.2"
+   }
+  ]
+ },
+ "elapsed_seconds": 126.7
+}
